@@ -13,6 +13,7 @@ import {AsignaturasComponent} from '../../asignaturas/asignaturas.component';
 import {VerAsignaturasComponent} from '../../ver-asignaturas/ver-asignaturas.component';
 import {VerPlanAsignaturaComponent} from '../../ver-plan-asignatura/ver-plan-asignatura.component';
 import {SolicitudComponent} from '../../solicitud/solicitud.component';
+import {RegistrarDocenteComponent} from '../../registrar-docente/registrar-docente.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'dashboard',      component: DashboardComponent },
@@ -27,5 +28,6 @@ export const AdminLayoutRoutes: Routes = [
     {path: 'asignaturas',     component: AsignaturasComponent},
     {path: 'verAsignaturas',     component: VerAsignaturasComponent},
     {path: 'verPlanAsignatura',     component: VerPlanAsignaturaComponent},
-    {path: 'solicitud',     component: SolicitudComponent}
+    {path: 'solicitud',     component: SolicitudComponent},
+    {path: 'registrar',     component: RegistrarDocenteComponent}
 ];

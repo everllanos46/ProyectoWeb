@@ -12,6 +12,8 @@ export const ROUTES: RouteInfo[] = [
     { path: '/docentes', title: 'Docentes',  icon:'users_single-02', class: '' },
 
     { path: '/asignaturas', title: 'Asignaturas',  icon:'location_map-big', class: '' },
+    { path: '/registrar', title: 'Registrar Docentes',  icon:'users_single-02', class: '' }
+
 
 ];
 

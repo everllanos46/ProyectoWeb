@@ -18,6 +18,7 @@ import {DocentesComponent} from '../../docentes/docentes.component';
 import {AsignaturasComponent} from '../../asignaturas/asignaturas.component';
 import {VerAsignaturasComponent} from '../../ver-asignaturas/ver-asignaturas.component';
 import {SolicitudComponent} from '../../solicitud/solicitud.component';
+import {RegistrarDocenteComponent} from '../../registrar-docente/registrar-docente.component';
 
 @NgModule({
   imports: [
@@ -40,7 +41,8 @@ import {SolicitudComponent} from '../../solicitud/solicitud.component';
     DocentesComponent,
     AsignaturasComponent,
     VerAsignaturasComponent,
-    SolicitudComponent
+    SolicitudComponent,
+    RegistrarDocenteComponent
 
   ]
 })

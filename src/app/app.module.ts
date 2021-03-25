@@ -15,6 +15,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { DocentesComponent } from './docentes/docentes.component';
 import { VerPlanAsignaturaComponent } from './ver-plan-asignatura/ver-plan-asignatura.component';
 import { SolicitudComponent } from './solicitud/solicitud.component';
+import { RegistrarDocenteComponent } from './registrar-docente/registrar-docente.component';
 
 
 @NgModule({
